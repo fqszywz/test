@@ -34,5 +34,29 @@
       - 使用场景：注册账户中是否同意协议、兴趣爱好等
       - 默认选中：checked
 
-    - 下拉菜单
-      标签：sekect嵌套option,select是下拉菜单整体，option是下拉菜单的每一项。
+    - 下拉菜单：select嵌套option,select是下拉菜单整体，option是下拉菜单选项
+      - <select>标签：下拉菜单标签
+      - <option>标签：下拉菜单选项标签
+      - <optgroup>标签：下拉菜单分组标签
+      - <select>标签的属性值：
+        - name：下拉菜单名称
+        - multiple：多选
+        - size：显示的行数
+        - selected：默认选中
+        - disabled：禁用
+        - required：必填
+        - autofocus：自动获取焦点
+        - form：指定表单
+        - label：指定标签的标题
+        - value：指定选项的值
+        - data-*：自定义属性
+        - id：指定选项的id
+        - class：指定选项的class
+        - style：指定选项的样式
+        - title：指定选项的提示信息
+        - onclick：指定选项的点击事件
+        - onchange：指定选项的change事件
+        - onmouseover：指定选项的鼠标移入事件
+        - onmouseout：指定选项的鼠标移出事件
+        - onmousemove：指定选项的鼠标移动事件
+        - onmousedown：指定选项的鼠标按下事件
