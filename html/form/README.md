@@ -60,3 +60,20 @@
         - onmouseout：指定选项的鼠标移出事件
         - onmousemove：指定选项的鼠标移动事件
         - onmousedown：指定选项的鼠标按下事件
+    
+    - 文本域：多行输入文本的表单控件
+      - textarea：双标签
+
+  - label标签：网页中，某个标签的说明文本
+    - 作用：为表单控件添加说明
+    - 经验：用label标签绑定文字和表单控件的关系，增大表单控件的点击范围
+
+    - 写法1
+      - label标签只包裹内容，不包裹表单控件
+      - 设置label标签的for属性值和表单控件的id属性值一致
+        <input type="radio" id="man">
+        <label for="man">男</label>
+
+    - 写法2
+      - 使用label标签包裹表单控件，不需要属性
+      <label><input type="radio">女</label>
