@@ -16,7 +16,7 @@
       - file：文件上传框
       - button：按钮
       - submit：提交按钮
-      - reset：重置按钮
+      - reset：重置按钮--
       - hidden：隐藏域
 
     - 附加属性值
@@ -33,3 +33,6 @@
     - 复选框（多选框）
       - 使用场景：注册账户中是否同意协议、兴趣爱好等
       - 默认选中：checked
+
+    - 下拉菜单
+      标签：sekect嵌套option,select是下拉菜单整体，option是下拉菜单的每一项。
